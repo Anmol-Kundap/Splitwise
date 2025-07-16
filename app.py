@@ -11,6 +11,7 @@ password = st.text_input("Password", type="password")
 if username != "Andy" or password != "2004":
     st.warning("Enter valid credentials to continue.")
     st.stop()
+#for centre
 st.set_page_config(layout="centered")
 
 
