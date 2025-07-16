@@ -11,6 +11,8 @@ password = st.text_input("Password", type="password")
 if username != "Andy" or password != "2004":
     st.warning("Enter valid credentials to continue.")
     st.stop()
+st.set_page_config(layout="centered")
+
 
 
 st.set_page_config(page_title="My Splitwise App", layout="centered")
